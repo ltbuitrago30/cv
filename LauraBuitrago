@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Laura Tatiana Buitrago Rodríguez | Gestora Territorial</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .header {
+            background-color: #0f172a;
+            color: #ffffff;
+            padding: 2.5rem 1rem;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2rem;
+            margin-bottom: 0.3rem;
+        }
+
+        .header h2 {
+            font-size: 1.1rem;
+            font-weight: 400;
+            margin-bottom: 0.8rem;
+        }
+
+        .header a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            background: #ffffff;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: 6px;
+        }
+
+        h3 {
+            border-bottom: 2px solid #0f172a;
+            padding-bottom: 0.4rem;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .item {
+            margin-bottom: 1.2rem;
+        }
+
+        .item h4 {
+            font-size: 1rem;
+            font-weight: 600;
+        }
+
+        .item span {
+            font-size: 0.85rem;
+            color: #555;
+        }
+
+        ul {
+            margin-top: 0.5rem;
+            padding-left: 1.2rem;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .skills li {
+            background: #e5e7eb;
+            padding: 0.4rem 0.6rem;
+            margin: 0.3rem 0;
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 0.8rem;
+            color: #666;
+            padding: 1rem;
+        }
+
+        @media print {
+            body {
+                background: #ffffff;
+            }
+
+            .header {
+                background: #ffffff;
+                color: #000000;
+                border-bottom: 2px solid #000;
+            }
+
+            section {
+                box-shadow: none;
+                border: 1px solid #ddd;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <h1>Laura Tatiana Buitrago Rodríguez</h1>
+        <h2>Gestora Territorial | Fortalecimiento Empresarial</h2>
+        <p>
+            Tunja, Boyacá · 
+            <a href="mailto:laubuitrago30@hotmail.com">laubuitrago30@hotmail.com</a> · 
+            313 860 8604
+        </p>
+    </header>
+
+    <main class="container">
+
+        <section>
+            <h3>Perfil Profesional</h3>
+            <p>
+                Administradora de Negocios Internacionales, especialista en Gerencia de Mercadeo, 
+                con más de cinco (5) años de experiencia en gestión territorial, fortalecimiento 
+                empresarial y acompañamiento técnico a emprendimientos y proyectos productivos, 
+                especialmente con población vulnerable. Experiencia en formulación, implementación 
+                y seguimiento de planes de negocio, asistencia técnica, articulación institucional 
+                y ejecución de proyectos de desarrollo económico en el ámbito municipal y regional.
+            </p>
+        </section>
+
+        <section>
+            <h3>Experiencia Profesional Relevante</h3>
+
+            <div class="item">
+                <h4>Secretaría de Fomento Económico – Alcaldía Mayor de Tunja</h4>
+                <span>Gestora Territorial / Profesional de Apoyo · 2021 – 2025</span>
+                <ul>
+                    <li>Acompañamiento técnico y fortalecimiento empresarial a emprendimientos urbanos y rurales.</li>
+                    <li>Formulación e implementación de planes de negocio y planes de intervención.</li>
+                    <li>Asistencia técnica a población vulnerable.</li>
+                    <li>Seguimiento a proyectos productivos y convocatorias públicas.</li>
+                    <li>Planeación y ejecución de ferias, eventos y estrategias de desarrollo económico territorial.</li>
+                    <li>Elaboración de informes técnicos para entes de control.</li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <h4>UP HOLDING S.A.S</h4>
+                <span>Apoyo Técnico en Innovación y Prototipado · 2024</span>
+                <ul>
+                    <li>Apoyo técnico en procesos de innovación y prototipado empresarial.</li>
+                    <li>Seguimiento a mentores y verificación de entregables.</li>
+                    <li>Gestión documental y organización de evidencias técnicas.</li>
+                    <li>Acompañamiento a empresas de turismo, economía naranja, servicios y agroindustria.</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <section>
+            <h3>Formación Académica</h3>
+            <ul>
+                <li>
+                    <strong>Especialización en Gerencia de Mercadeo</strong><br>
+                    Universidad de Boyacá – Tunja
+                </li>
+                <li>
+                    <strong>Administración de Negocios Internacionales</strong><br>
+                    Universidad de Boyacá – Tunja
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Formación Complementaria</h3>
+            <ul>
+                <li>Diplomado en Innovación Empresarial – Universidad Distrital Francisco José de Caldas (2024)</li>
+                <li>Entrenamiento en Mediación y Prototipado para la Gestión de la Innovación (2024)</li>
+                <li>Diplomado en Gestión Turística – Universidad de Boyacá</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Competencias Clave</h3>
+            <ul class="skills">
+                <li>Gestión territorial</li>
+                <li>Fortalecimiento empresarial</li>
+                <li>Acompañamiento técnico</li>
+                <li>Formulación de proyectos</li>
+                <li>Planes de negocio</li>
+                <li>Trabajo con población vulnerable</li>
+                <li>Gestión de información e informes</li>
+                <li>Articulación institucional</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>Hoja de vida profesional – Laura Tatiana Buitrago Rodríguez</p>
+    </footer>
+
+</body>
+</html>
